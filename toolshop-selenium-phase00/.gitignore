@@ -1,0 +1,18 @@
+# Java and Maven artifacts (for future phases)
+target/
+*.class
+
+# IDE and OS noise
+.idea/
+*.iml
+.DS_Store
+
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+*.pem
+
+# Local/private investigation outputs
+*.log
+evidence/private/
